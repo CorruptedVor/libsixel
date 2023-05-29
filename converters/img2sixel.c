@@ -32,9 +32,6 @@
 # include <getopt.h>
 # include <inttypes.h>
 # include <signal.h>
-#if HAVE_SYS_SIGNAL_H
-# include <sys/signal.h>
-#endif
 #include <sixel.h>
 
 /* output version info to STDOUT */
